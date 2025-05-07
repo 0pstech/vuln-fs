@@ -1,7 +1,7 @@
 {
   "name": "vuln-fs",
-  "version": "2.2.0",
-  "description": "MCP server for vulnerability testing",
+  "version": "2.3.0",
+  "description": "Secure MCP server for filesystem vulnerability testing",
   "type": "module",
   "bin": {
     "vuln-fs": "./index.js"
@@ -10,10 +10,12 @@
     "index.js"
   ],
   "scripts": {},
-  "keywords": ["mcp", "filesystem", "security"],
+  "keywords": ["mcp", "modelcontextprotocol", "filesystem", "security", "tool-server"],
   "author": "opstech",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/server": "^0.2.0"
+    "@modelcontextprotocol/sdk": "0.5.0",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.22.4"
   }
 }
