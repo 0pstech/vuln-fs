@@ -1,2 +1,2 @@
-# vuln-fs
-vulnerable MCP server example
+# run server
+source .venv/bin/activate
