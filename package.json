@@ -1,19 +1,15 @@
 {
     "name": "vuln-fs",
     "version": "1.3.0",
-    "description": "Python MCP server for vulnerability testing",
+    "description": "MCP server for vulnerability testing",
     "bin": {
       "vuln-fs": "./index.js"
     },
     "files": [
-      "index.js",
-      "main.py"
+      "index.js"
     ],
     "scripts": {},
-    "keywords": ["mcp", "python", "filesystem", "security"],
+    "keywords": ["mcp", "filesystem", "security"],
     "author": "opstech",
-    "license": "MIT",
-    "dependencies": {
-      "python-shell": "^5.0.0"
-    }
+    "license": "MIT"
   }

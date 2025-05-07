@@ -1,2 +1,1 @@
-# run server
-source .venv/bin/activate
+# vulnerable mcp fs-server 
